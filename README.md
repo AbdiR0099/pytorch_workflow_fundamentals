@@ -1,7 +1,7 @@
 # PyTorch Workflow Fundamentals
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/AbdiR0099/pytorch_workflow_fundamentals?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/AbdiR0099/pytorch_workflow_fundamentals?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/AbdiR0099/pytorch_workflow_fundamentals)
 ![GitHub language count](https://img.shields.io/github/languages/count/AbdiR0099/pytorch_workflow_fundamentals?style=flat-square)
 
 ## About the Project
