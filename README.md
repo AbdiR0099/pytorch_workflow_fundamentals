@@ -1,9 +1,8 @@
 # PyTorch Workflow Fundamentals
 
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO_NAME?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPO_NAME?style=flat-square)
-![GitHub language count](https://img.shields.io/github/languages/count/YOUR_USERNAME/YOUR_REPO_NAME?style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/YOUR_USERNAME/YOUR_REPO_NAME?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/AbdiR0099/pytorch_workflow_fundamentals?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/AbdiR0099/pytorch_workflow_fundamentals?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/AbdiR0099/pytorch_workflow_fundamentals?style=flat-square)
 
 ## About the Project
 This repository serves as a personal checkpoint in my deep learning journey, focusing on the core workflow of **PyTorch**. Rather than relying on high-level abstractions immediately, this project involves building a machine learning model from the ground up. It covers the end-to-end lifecycle: generating data, building a neural network architecture, writing custom training and testing loops, and finally, saving the trained model for future inference.
