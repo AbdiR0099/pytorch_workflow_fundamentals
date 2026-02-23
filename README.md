@@ -20,6 +20,7 @@ $y = wx + b$
 Machine learning requires data. For this project, I generated a known dataset using a linear formula and split it into training (80%) and testing (20%) sets. This is a critical industry practice to ensure the model learns from the training data but is evaluated on unseen test data to prevent overfitting.
 
 ![Data Split Visualization](visualizations/train_test_split.png)
+
 *Visualizing the training data (what the model learns from) and testing data (what the model is evaluated on).*
 
 ### 2. Building the Model (`torch.nn`)
@@ -32,12 +33,14 @@ A model doesn't learn on its own; it requires feedback.
 * **Backpropagation:** The training loop iteratively calculates the loss, performs backpropagation (`loss.backward()`), and adjusts weights (`optimizer.step()`).
 
 ![Loss Curve Visualization](visualizations/loss.png)
+
 *Tracking the reduction in training and testing loss over 100 epochs.*
 
 ### 4. Inference & Evaluation
 To make predictions efficiently, I utilized the `torch.inference_mode()` context manager. This disables gradient tracking, making forward-passes faster and significantly reducing memory consumption during evaluation.
 
 ![Predictions Visualization](visualizations/predictions.png)
+
 *Comparing the model's final predictions against the actual test data.*
 
 ### 5. Saving and Loading Models
@@ -54,11 +57,13 @@ To clone and run this project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/AbdiR0099/pytorch_workflow_fundamentals.git)
+   cd pytorch_workflow_fundamentals
 2. **Create a virtual environment:**
-   `python -m venv venv
-   source venv/bin/activate  # On Windows use venv\Scripts\activate`
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use venv\Scripts\activate
 
 3.  **Install dependencies:**
-  `pip install torch matplotlib`
+    ```bash
+    pip install torch matplotlib
